@@ -1,0 +1,52 @@
+ 
+ 
+.form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+  
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.form-registration input {
+    border-radius: 0;
+    margin-bottom: -1px;
+}
+
+.home-text {
+    font-size: 64px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #161616;
+}
+
+.home-title {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+.home-text-body {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #AAAEB4;
+}
+
+.button-home {
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    background-color: #F8CB2E;
+}
+
+.button-home:hover {
+    background-color: #a1841b;
+}
