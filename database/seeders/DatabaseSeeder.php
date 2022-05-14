@@ -19,15 +19,15 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         
-        User::create([
-            'name' => 'kelompok3',
-            'username' => 'kelompok3',
-            'email' => 'kelompok3@gmail.com',
-            'password' => bcrypt('12345'),
-            'is_admin' => 1
-        ]);
+        // User::create([
+        //     'name' => 'kelompok3',
+        //     'username' => 'kelompok3',
+        //     'email' => 'kelompok3@gmail.com',
+        //     'password' => bcrypt('12345'),
+        //     'is_admin' => 1
+        // ]);
 
-        User::factory(3)->create();
+        // User::factory(3)->create();
 
         Category::create([
             'name' => 'Semester 1',
@@ -67,11 +67,11 @@ class DatabaseSeeder extends Seeder
             'slug' => 'semester-8'
         ]);
 
-        Post::factory(20)->create();
+        // Post::factory(20)->create();
 
-        Lecture::factory(3)->create();
+        // Lecture::factory(3)->create();
 
-        Get::factory(3)->create();
+        // Get::factory(3)->create();
 
         // Post::create([
         //     'title' => 'Judul Pertama',
